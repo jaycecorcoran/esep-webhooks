@@ -12,5 +12,5 @@
   "function-runtime": "dotnet10",
   "function-memory-size": 512,
   "function-timeout": 30,
-  "function-handler": "RsepWebhook::RsepWebhook.Function::FunctionHandler"
+  "function-handler": "EsepWebhook::EsepWebhook.Function::FunctionHandler"
 }

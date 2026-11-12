@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jayce\\enterprise_sec\\EsepWebhook\\EsepWebhook.csproj": {}
+    "C:\\Users\\jayce\\enterprise_sec\\esep-webhooks\\EsepWebhook\\EsepWebhook.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jayce\\enterprise_sec\\EsepWebhook\\EsepWebhook.csproj": {
+    "C:\\Users\\jayce\\enterprise_sec\\esep-webhooks\\EsepWebhook\\EsepWebhook.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jayce\\enterprise_sec\\EsepWebhook\\EsepWebhook.csproj",
+        "projectUniqueName": "C:\\Users\\jayce\\enterprise_sec\\esep-webhooks\\EsepWebhook\\EsepWebhook.csproj",
         "projectName": "EsepWebhook",
-        "projectPath": "C:\\Users\\jayce\\enterprise_sec\\EsepWebhook\\EsepWebhook.csproj",
+        "projectPath": "C:\\Users\\jayce\\enterprise_sec\\esep-webhooks\\EsepWebhook\\EsepWebhook.csproj",
         "packagesPath": "C:\\Users\\jayce\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jayce\\enterprise_sec\\EsepWebhook\\obj\\",
+        "outputPath": "C:\\Users\\jayce\\enterprise_sec\\esep-webhooks\\EsepWebhook\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -76,7 +76,15 @@
           "warn": true,
           "downloadDependencies": [
             {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+              "version": "[10.0.5, 10.0.5]"
+            },
+            {
               "name": "Microsoft.NETCore.App.Crossgen2.win-x64",
+              "version": "[10.0.5, 10.0.5]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
               "version": "[10.0.5, 10.0.5]"
             }
           ],
@@ -360,6 +368,11 @@
             "System.Xml.XPath": "(,4.3.32767]",
             "System.Xml.XPath.XDocument": "(,5.0.32767]"
           }
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
         }
       }
     }
